@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5D787AE2B86157B00EF1C79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D787AD2B86157B00EF1C79 /* AppDelegate.swift */; };
+		D5D787B02B86157B00EF1C79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D787AF2B86157B00EF1C79 /* SceneDelegate.swift */; };
+		D5D787B22B86157B00EF1C79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D787B12B86157B00EF1C79 /* ViewController.swift */; };
+		D5D787B52B86157B00EF1C79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D787B32B86157B00EF1C79 /* Main.storyboard */; };
+		D5D787B82B86157B00EF1C79 /* Haksik_HYU.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5D787B62B86157B00EF1C79 /* Haksik_HYU.xcdatamodeld */; };
+		D5D787BA2B86157C00EF1C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D787B92B86157C00EF1C79 /* Assets.xcassets */; };
+		D5D787BD2B86157C00EF1C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D787BB2B86157C00EF1C79 /* LaunchScreen.storyboard */; };
+		D5D787C82B86157C00EF1C79 /* Haksik_HYUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D787C72B86157C00EF1C79 /* Haksik_HYUTests.swift */; };
+		D5D787D22B86157C00EF1C79 /* Haksik_HYUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D787D12B86157C00EF1C79 /* Haksik_HYUUITests.swift */; };
+		D5D787D42B86157D00EF1C79 /* Haksik_HYUUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D787D32B86157D00EF1C79 /* Haksik_HYUUITestsLaunchTests.swift */; };
+		D5D787E22B86162100EF1C79 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = D5D787E12B86162100EF1C79 /* .swiftlint.yml */; };
+		D5D787E72B86170A00EF1C79 /* InfoStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D787E62B86170A00EF1C79 /* InfoStruct.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5D787C42B86157C00EF1C79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5D787A22B86157B00EF1C79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D787A92B86157B00EF1C79;
+			remoteInfo = Haksik_HYU;
+		};
+		D5D787CE2B86157C00EF1C79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5D787A22B86157B00EF1C79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D787A92B86157B00EF1C79;
+			remoteInfo = Haksik_HYU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5D787AA2B86157B00EF1C79 /* Haksik_HYU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haksik_HYU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D787AD2B86157B00EF1C79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5D787AF2B86157B00EF1C79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D5D787B12B86157B00EF1C79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5D787B42B86157B00EF1C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5D787B72B86157B00EF1C79 /* Haksik_HYU.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Haksik_HYU.xcdatamodel; sourceTree = "<group>"; };
+		D5D787B92B86157C00EF1C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5D787BC2B86157C00EF1C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5D787BE2B86157C00EF1C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D787C32B86157C00EF1C79 /* Haksik_HYUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Haksik_HYUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D787C72B86157C00EF1C79 /* Haksik_HYUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haksik_HYUTests.swift; sourceTree = "<group>"; };
+		D5D787CD2B86157C00EF1C79 /* Haksik_HYUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Haksik_HYUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D787D12B86157C00EF1C79 /* Haksik_HYUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haksik_HYUUITests.swift; sourceTree = "<group>"; };
+		D5D787D32B86157D00EF1C79 /* Haksik_HYUUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haksik_HYUUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D5D787E12B86162100EF1C79 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		D5D787E62B86170A00EF1C79 /* InfoStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoStruct.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5D787A72B86157B00EF1C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D787C02B86157C00EF1C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D787CA2B86157C00EF1C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5D787A12B86157B00EF1C79 = {
+			isa = PBXGroup;
+			children = (
+				D5D787E12B86162100EF1C79 /* .swiftlint.yml */,
+				D5D787AC2B86157B00EF1C79 /* Haksik_HYU */,
+				D5D787C62B86157C00EF1C79 /* Haksik_HYUTests */,
+				D5D787D02B86157C00EF1C79 /* Haksik_HYUUITests */,
+				D5D787AB2B86157B00EF1C79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5D787AB2B86157B00EF1C79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5D787AA2B86157B00EF1C79 /* Haksik_HYU.app */,
+				D5D787C32B86157C00EF1C79 /* Haksik_HYUTests.xctest */,
+				D5D787CD2B86157C00EF1C79 /* Haksik_HYUUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5D787AC2B86157B00EF1C79 /* Haksik_HYU */ = {
+			isa = PBXGroup;
+			children = (
+				D5D787E32B86167A00EF1C79 /* Model */,
+				D5D787E42B86168F00EF1C79 /* View */,
+				D5D787E52B86169600EF1C79 /* Controller */,
+				D5D787AD2B86157B00EF1C79 /* AppDelegate.swift */,
+				D5D787AF2B86157B00EF1C79 /* SceneDelegate.swift */,
+				D5D787B32B86157B00EF1C79 /* Main.storyboard */,
+				D5D787B92B86157C00EF1C79 /* Assets.xcassets */,
+				D5D787BB2B86157C00EF1C79 /* LaunchScreen.storyboard */,
+				D5D787BE2B86157C00EF1C79 /* Info.plist */,
+				D5D787B62B86157B00EF1C79 /* Haksik_HYU.xcdatamodeld */,
+			);
+			path = Haksik_HYU;
+			sourceTree = "<group>";
+		};
+		D5D787C62B86157C00EF1C79 /* Haksik_HYUTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5D787C72B86157C00EF1C79 /* Haksik_HYUTests.swift */,
+			);
+			path = Haksik_HYUTests;
+			sourceTree = "<group>";
+		};
+		D5D787D02B86157C00EF1C79 /* Haksik_HYUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5D787D12B86157C00EF1C79 /* Haksik_HYUUITests.swift */,
+				D5D787D32B86157D00EF1C79 /* Haksik_HYUUITestsLaunchTests.swift */,
+			);
+			path = Haksik_HYUUITests;
+			sourceTree = "<group>";
+		};
+		D5D787E32B86167A00EF1C79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D5D787E62B86170A00EF1C79 /* InfoStruct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D5D787E42B86168F00EF1C79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D5D787B12B86157B00EF1C79 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D5D787E52B86169600EF1C79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5D787A92B86157B00EF1C79 /* Haksik_HYU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D787D72B86157D00EF1C79 /* Build configuration list for PBXNativeTarget "Haksik_HYU" */;
+			buildPhases = (
+				D5D787A62B86157B00EF1C79 /* Sources */,
+				D5D787A72B86157B00EF1C79 /* Frameworks */,
+				D5D787A82B86157B00EF1C79 /* Resources */,
+				D5D787E02B8615D500EF1C79 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Haksik_HYU;
+			productName = Haksik_HYU;
+			productReference = D5D787AA2B86157B00EF1C79 /* Haksik_HYU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5D787C22B86157C00EF1C79 /* Haksik_HYUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D787DA2B86157D00EF1C79 /* Build configuration list for PBXNativeTarget "Haksik_HYUTests" */;
+			buildPhases = (
+				D5D787BF2B86157C00EF1C79 /* Sources */,
+				D5D787C02B86157C00EF1C79 /* Frameworks */,
+				D5D787C12B86157C00EF1C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5D787C52B86157C00EF1C79 /* PBXTargetDependency */,
+			);
+			name = Haksik_HYUTests;
+			productName = Haksik_HYUTests;
+			productReference = D5D787C32B86157C00EF1C79 /* Haksik_HYUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5D787CC2B86157C00EF1C79 /* Haksik_HYUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D787DD2B86157D00EF1C79 /* Build configuration list for PBXNativeTarget "Haksik_HYUUITests" */;
+			buildPhases = (
+				D5D787C92B86157C00EF1C79 /* Sources */,
+				D5D787CA2B86157C00EF1C79 /* Frameworks */,
+				D5D787CB2B86157C00EF1C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5D787CF2B86157C00EF1C79 /* PBXTargetDependency */,
+			);
+			name = Haksik_HYUUITests;
+			productName = Haksik_HYUUITests;
+			productReference = D5D787CD2B86157C00EF1C79 /* Haksik_HYUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5D787A22B86157B00EF1C79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D5D787A92B86157B00EF1C79 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					D5D787C22B86157C00EF1C79 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D5D787A92B86157B00EF1C79;
+					};
+					D5D787CC2B86157C00EF1C79 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D5D787A92B86157B00EF1C79;
+					};
+				};
+			};
+			buildConfigurationList = D5D787A52B86157B00EF1C79 /* Build configuration list for PBXProject "Haksik_HYU" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5D787A12B86157B00EF1C79;
+			productRefGroup = D5D787AB2B86157B00EF1C79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5D787A92B86157B00EF1C79 /* Haksik_HYU */,
+				D5D787C22B86157C00EF1C79 /* Haksik_HYUTests */,
+				D5D787CC2B86157C00EF1C79 /* Haksik_HYUUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5D787A82B86157B00EF1C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D787E22B86162100EF1C79 /* .swiftlint.yml in Resources */,
+				D5D787BD2B86157C00EF1C79 /* LaunchScreen.storyboard in Resources */,
+				D5D787BA2B86157C00EF1C79 /* Assets.xcassets in Resources */,
+				D5D787B52B86157B00EF1C79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D787C12B86157C00EF1C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D787CB2B86157C00EF1C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D5D787E02B8615D500EF1C79 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "if test -d \"/opt/homebrew/bin/\"; then\n  PATH=\"/opt/homebrew/bin/:${PATH}\"\nfi\n\nexport PATH\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5D787A62B86157B00EF1C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D787B22B86157B00EF1C79 /* ViewController.swift in Sources */,
+				D5D787AE2B86157B00EF1C79 /* AppDelegate.swift in Sources */,
+				D5D787B02B86157B00EF1C79 /* SceneDelegate.swift in Sources */,
+				D5D787E72B86170A00EF1C79 /* InfoStruct.swift in Sources */,
+				D5D787B82B86157B00EF1C79 /* Haksik_HYU.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D787BF2B86157C00EF1C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D787C82B86157C00EF1C79 /* Haksik_HYUTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D787C92B86157C00EF1C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D787D42B86157D00EF1C79 /* Haksik_HYUUITestsLaunchTests.swift in Sources */,
+				D5D787D22B86157C00EF1C79 /* Haksik_HYUUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5D787C52B86157C00EF1C79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D787A92B86157B00EF1C79 /* Haksik_HYU */;
+			targetProxy = D5D787C42B86157C00EF1C79 /* PBXContainerItemProxy */;
+		};
+		D5D787CF2B86157C00EF1C79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D787A92B86157B00EF1C79 /* Haksik_HYU */;
+			targetProxy = D5D787CE2B86157C00EF1C79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5D787B32B86157B00EF1C79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5D787B42B86157B00EF1C79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5D787BB2B86157C00EF1C79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5D787BC2B86157C00EF1C79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5D787D52B86157D00EF1C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5D787D62B86157D00EF1C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5D787D82B86157D00EF1C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CY7T52VJ8W;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Haksik_HYU/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dragosh0705.Haksik-HYU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5D787D92B86157D00EF1C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CY7T52VJ8W;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Haksik_HYU/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dragosh0705.Haksik-HYU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5D787DB2B86157D00EF1C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CY7T52VJ8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dragosh0705.Haksik-HYUTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haksik_HYU.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Haksik_HYU";
+			};
+			name = Debug;
+		};
+		D5D787DC2B86157D00EF1C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CY7T52VJ8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dragosh0705.Haksik-HYUTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haksik_HYU.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Haksik_HYU";
+			};
+			name = Release;
+		};
+		D5D787DE2B86157D00EF1C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CY7T52VJ8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dragosh0705.Haksik-HYUUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Haksik_HYU;
+			};
+			name = Debug;
+		};
+		D5D787DF2B86157D00EF1C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CY7T52VJ8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dragosh0705.Haksik-HYUUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Haksik_HYU;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5D787A52B86157B00EF1C79 /* Build configuration list for PBXProject "Haksik_HYU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D787D52B86157D00EF1C79 /* Debug */,
+				D5D787D62B86157D00EF1C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D787D72B86157D00EF1C79 /* Build configuration list for PBXNativeTarget "Haksik_HYU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D787D82B86157D00EF1C79 /* Debug */,
+				D5D787D92B86157D00EF1C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D787DA2B86157D00EF1C79 /* Build configuration list for PBXNativeTarget "Haksik_HYUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D787DB2B86157D00EF1C79 /* Debug */,
+				D5D787DC2B86157D00EF1C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D787DD2B86157D00EF1C79 /* Build configuration list for PBXNativeTarget "Haksik_HYUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D787DE2B86157D00EF1C79 /* Debug */,
+				D5D787DF2B86157D00EF1C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D5D787B62B86157B00EF1C79 /* Haksik_HYU.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D5D787B72B86157B00EF1C79 /* Haksik_HYU.xcdatamodel */,
+			);
+			currentVersion = D5D787B72B86157B00EF1C79 /* Haksik_HYU.xcdatamodel */;
+			path = Haksik_HYU.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D5D787A22B86157B00EF1C79 /* Project object */;
+}
