@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06E6F449CB684978737B6186 /* Pods_Haksik_HYU_Haksik_HYUUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1B0F6C8ABE5559DFA55CA5 /* Pods_Haksik_HYU_Haksik_HYUUITests.framework */; };
+		AEDB82509F61B85DEBF5D351 /* Pods_Haksik_HYUTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B144542C1D384AE60DA00154 /* Pods_Haksik_HYUTests.framework */; };
 		D5D787AE2B86157B00EF1C79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D787AD2B86157B00EF1C79 /* AppDelegate.swift */; };
 		D5D787B02B86157B00EF1C79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D787AF2B86157B00EF1C79 /* SceneDelegate.swift */; };
 		D5D787B22B86157B00EF1C79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D787B12B86157B00EF1C79 /* ViewController.swift */; };
@@ -19,6 +21,9 @@
 		D5D787D42B86157D00EF1C79 /* Haksik_HYUUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D787D32B86157D00EF1C79 /* Haksik_HYUUITestsLaunchTests.swift */; };
 		D5D787E22B86162100EF1C79 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = D5D787E12B86162100EF1C79 /* .swiftlint.yml */; };
 		D5D787E72B86170A00EF1C79 /* InfoStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D787E62B86170A00EF1C79 /* InfoStruct.swift */; };
+		D5F34D802B8745C200CA8C8A /* todayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F34D7F2B8745C200CA8C8A /* todayTableViewCell.swift */; };
+		D5F34D822B8748D000CA8C8A /* TodayMenuStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F34D812B8748D000CA8C8A /* TodayMenuStruct.swift */; };
+		E960F6C43C1D70FA0A34DE1D /* Pods_Haksik_HYU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44643009773A3D36C922C5FD /* Pods_Haksik_HYU.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37CBC628B1EF36278A96C697 /* Pods-Haksik_HYUTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haksik_HYUTests.debug.xcconfig"; path = "Target Support Files/Pods-Haksik_HYUTests/Pods-Haksik_HYUTests.debug.xcconfig"; sourceTree = "<group>"; };
+		44643009773A3D36C922C5FD /* Pods_Haksik_HYU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Haksik_HYU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A1B0F6C8ABE5559DFA55CA5 /* Pods_Haksik_HYU_Haksik_HYUUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Haksik_HYU_Haksik_HYUUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5257BA70A7D8F5D6D4E058 /* Pods-Haksik_HYU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haksik_HYU.debug.xcconfig"; path = "Target Support Files/Pods-Haksik_HYU/Pods-Haksik_HYU.debug.xcconfig"; sourceTree = "<group>"; };
+		A000D8BBADA5D2B332CCEF78 /* Pods-Haksik_HYU-Haksik_HYUUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haksik_HYU-Haksik_HYUUITests.release.xcconfig"; path = "Target Support Files/Pods-Haksik_HYU-Haksik_HYUUITests/Pods-Haksik_HYU-Haksik_HYUUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B144542C1D384AE60DA00154 /* Pods_Haksik_HYUTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Haksik_HYUTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D787AA2B86157B00EF1C79 /* Haksik_HYU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haksik_HYU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D787AD2B86157B00EF1C79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5D787AF2B86157B00EF1C79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +66,11 @@
 		D5D787D32B86157D00EF1C79 /* Haksik_HYUUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haksik_HYUUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D5D787E12B86162100EF1C79 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		D5D787E62B86170A00EF1C79 /* InfoStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoStruct.swift; sourceTree = "<group>"; };
+		D5F34D7F2B8745C200CA8C8A /* todayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todayTableViewCell.swift; sourceTree = "<group>"; };
+		D5F34D812B8748D000CA8C8A /* TodayMenuStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayMenuStruct.swift; sourceTree = "<group>"; };
+		D80A9AF2A72984436ED0AB5D /* Pods-Haksik_HYU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haksik_HYU.release.xcconfig"; path = "Target Support Files/Pods-Haksik_HYU/Pods-Haksik_HYU.release.xcconfig"; sourceTree = "<group>"; };
+		FB65A15AE12462FC48835A36 /* Pods-Haksik_HYU-Haksik_HYUUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haksik_HYU-Haksik_HYUUITests.debug.xcconfig"; path = "Target Support Files/Pods-Haksik_HYU-Haksik_HYUUITests/Pods-Haksik_HYU-Haksik_HYUUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFD1761920671D6788485A2E /* Pods-Haksik_HYUTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haksik_HYUTests.release.xcconfig"; path = "Target Support Files/Pods-Haksik_HYUTests/Pods-Haksik_HYUTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E960F6C43C1D70FA0A34DE1D /* Pods_Haksik_HYU.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEDB82509F61B85DEBF5D351 /* Pods_Haksik_HYUTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +94,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06E6F449CB684978737B6186 /* Pods_Haksik_HYU_Haksik_HYUUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79C578FD936B4F2FA7231EA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44643009773A3D36C922C5FD /* Pods_Haksik_HYU.framework */,
+				6A1B0F6C8ABE5559DFA55CA5 /* Pods_Haksik_HYU_Haksik_HYUUITests.framework */,
+				B144542C1D384AE60DA00154 /* Pods_Haksik_HYUTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D5D787A12B86157B00EF1C79 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +119,8 @@
 				D5D787C62B86157C00EF1C79 /* Haksik_HYUTests */,
 				D5D787D02B86157C00EF1C79 /* Haksik_HYUUITests */,
 				D5D787AB2B86157B00EF1C79 /* Products */,
+				DD89BC33C4120A1262509920 /* Pods */,
+				79C578FD936B4F2FA7231EA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				D5D787E62B86170A00EF1C79 /* InfoStruct.swift */,
+				D5F34D812B8748D000CA8C8A /* TodayMenuStruct.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -149,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				D5D787B12B86157B00EF1C79 /* ViewController.swift */,
+				D5F34D7F2B8745C200CA8C8A /* todayTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -160,6 +193,20 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		DD89BC33C4120A1262509920 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F5257BA70A7D8F5D6D4E058 /* Pods-Haksik_HYU.debug.xcconfig */,
+				D80A9AF2A72984436ED0AB5D /* Pods-Haksik_HYU.release.xcconfig */,
+				FB65A15AE12462FC48835A36 /* Pods-Haksik_HYU-Haksik_HYUUITests.debug.xcconfig */,
+				A000D8BBADA5D2B332CCEF78 /* Pods-Haksik_HYU-Haksik_HYUUITests.release.xcconfig */,
+				37CBC628B1EF36278A96C697 /* Pods-Haksik_HYUTests.debug.xcconfig */,
+				FFD1761920671D6788485A2E /* Pods-Haksik_HYUTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,10 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5D787D72B86157D00EF1C79 /* Build configuration list for PBXNativeTarget "Haksik_HYU" */;
 			buildPhases = (
+				F1DB319112E5EC72944FB780 /* [CP] Check Pods Manifest.lock */,
 				D5D787A62B86157B00EF1C79 /* Sources */,
 				D5D787A72B86157B00EF1C79 /* Frameworks */,
 				D5D787A82B86157B00EF1C79 /* Resources */,
 				D5D787E02B8615D500EF1C79 /* ShellScript */,
+				E2F4E4727CAAB92C6F4758AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5D787DA2B86157D00EF1C79 /* Build configuration list for PBXNativeTarget "Haksik_HYUTests" */;
 			buildPhases = (
+				7F3D228A994D1B8659FB3DC0 /* [CP] Check Pods Manifest.lock */,
 				D5D787BF2B86157C00EF1C79 /* Sources */,
 				D5D787C02B86157C00EF1C79 /* Frameworks */,
 				D5D787C12B86157C00EF1C79 /* Resources */,
@@ -203,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5D787DD2B86157D00EF1C79 /* Build configuration list for PBXNativeTarget "Haksik_HYUUITests" */;
 			buildPhases = (
+				CE601CF6DB40C3781128E6C5 /* [CP] Check Pods Manifest.lock */,
 				D5D787C92B86157C00EF1C79 /* Sources */,
 				D5D787CA2B86157C00EF1C79 /* Frameworks */,
 				D5D787CB2B86157C00EF1C79 /* Resources */,
+				4A10528858AF834A4535AE7A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,6 +341,67 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4A10528858AF834A4535AE7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Haksik_HYU-Haksik_HYUUITests/Pods-Haksik_HYU-Haksik_HYUUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Haksik_HYU-Haksik_HYUUITests/Pods-Haksik_HYU-Haksik_HYUUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Haksik_HYU-Haksik_HYUUITests/Pods-Haksik_HYU-Haksik_HYUUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F3D228A994D1B8659FB3DC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Haksik_HYUTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE601CF6DB40C3781128E6C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Haksik_HYU-Haksik_HYUUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D5D787E02B8615D500EF1C79 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 8;
@@ -306,6 +419,45 @@
 			shellPath = /bin/sh;
 			shellScript = "if test -d \"/opt/homebrew/bin/\"; then\n  PATH=\"/opt/homebrew/bin/:${PATH}\"\nfi\n\nexport PATH\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
+		E2F4E4727CAAB92C6F4758AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Haksik_HYU/Pods-Haksik_HYU-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Haksik_HYU/Pods-Haksik_HYU-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Haksik_HYU/Pods-Haksik_HYU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1DB319112E5EC72944FB780 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Haksik_HYU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -318,6 +470,8 @@
 				D5D787B02B86157B00EF1C79 /* SceneDelegate.swift in Sources */,
 				D5D787E72B86170A00EF1C79 /* InfoStruct.swift in Sources */,
 				D5D787B82B86157B00EF1C79 /* Haksik_HYU.xcdatamodeld in Sources */,
+				D5F34D802B8745C200CA8C8A /* todayTableViewCell.swift in Sources */,
+				D5F34D822B8748D000CA8C8A /* TodayMenuStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +648,7 @@
 		};
 		D5D787D82B86157D00EF1C79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F5257BA70A7D8F5D6D4E058 /* Pods-Haksik_HYU.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -523,6 +678,7 @@
 		};
 		D5D787D92B86157D00EF1C79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D80A9AF2A72984436ED0AB5D /* Pods-Haksik_HYU.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -552,6 +708,7 @@
 		};
 		D5D787DB2B86157D00EF1C79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37CBC628B1EF36278A96C697 /* Pods-Haksik_HYUTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -572,6 +729,7 @@
 		};
 		D5D787DC2B86157D00EF1C79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD1761920671D6788485A2E /* Pods-Haksik_HYUTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -592,6 +750,7 @@
 		};
 		D5D787DE2B86157D00EF1C79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB65A15AE12462FC48835A36 /* Pods-Haksik_HYU-Haksik_HYUUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -610,6 +769,7 @@
 		};
 		D5D787DF2B86157D00EF1C79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A000D8BBADA5D2B332CCEF78 /* Pods-Haksik_HYU-Haksik_HYUUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

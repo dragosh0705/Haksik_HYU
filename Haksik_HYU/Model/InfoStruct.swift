@@ -11,9 +11,3 @@ struct AppInfo {
     let defineAppName: String
 }
 
-struct LayoutInfo {
-    let defineTopViewSize: Int
-    let defineAlarmMenuText: String
-    let defineTodayMenuText: String
-    let defineSelectMenuText: String
-}
